@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Y_GUESS_YOUR_BIRTHDAY.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="18" CornerRadius="0">
+            <Label Text="BIENVENIDO TE APUESTO A QUE ADIVINARE TU FECHA DE CUMPLEAÑOS DE UNA!" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+        </Frame>
+
+        <Frame BackgroundColor="#254F70" Padding="10" CornerRadius="0">
+            <Label Text="Paso 1. Anota tu dia de nacimiento y multiplicalo por 20." HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+        </Frame>
+
+        <Frame BackgroundColor="#254F70" Padding="10" CornerRadius="0">
+            <Label Text="Paso 2. Al resultado anterior sumale 73." HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+        </Frame>
+
+        <Frame BackgroundColor="#254F70" Padding="10" CornerRadius="0">
+            <Label Text="Paso 3. Al resultado anterior multiplicalo por 5." HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+        </Frame>
+
+        <Frame BackgroundColor="#254F70" Padding="10" CornerRadius="0">
+            <Label Text="Paso 4. Ahora al resultado sumale el numero de tu mes de nacimiento." HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+        </Frame>
+
+        <Entry Placeholder="COLOCA TU RESULTADO FINAL ACA" x:Name="Final" HorizontalTextAlignment="Center"/>
+        <Button Text="EMPEZAR" BackgroundColor="Brown" FontSize="15" Clicked="Button_Clicked"/>
+        <Entry Placeholder="" x:Name="Fin" HorizontalTextAlignment="Center"/>
+        <Entry Placeholder="ACA APARECERA EL DIA EN QUE NACISTE" x:Name="hola" HorizontalTextAlignment="Center"/>
+        <Entry Placeholder="ACA APARECERA EL MES EN QUE NACISTE" x:Name="hol" HorizontalTextAlignment="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
